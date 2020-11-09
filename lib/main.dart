@@ -1,4 +1,5 @@
 import 'package:Ticket/screens/start_screen/start_screen.dart';
+import 'package:Ticket/screens/walkthrough01_screen/walkthrough01_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,7 +12,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: StartScreen(),
+      initialRoute: '/',
+      routes: {
+        '/': (context) => StartScreen(),
+        '/walkthroughOneScreen': (context) => WalkthroughOneScreen(),
+      },
     );
   }
 }
