@@ -70,7 +70,9 @@ class WalkthroughOneScreen extends StatelessWidget {
             top: MediaQuery.of(context).size.height * 0.91,
             right: MediaQuery.of(context).size.width * 0.05,
             child: GestureDetector(
-              onTap: () {},
+              onTap: () {
+                Navigator.pushNamed(context, '/walkthroughTwoScreen');
+              },
               child: Text(
                 'Next',
                 style: TextStyle(
