@@ -104,7 +104,9 @@ class StartScreen extends StatelessWidget {
                     color: Colors.cyanAccent[700],
                     size: 30.0,
                   ),
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.pushNamed(context, '/walkthroughOneScreen');
+                  },
                 ),
               ),
             ),
