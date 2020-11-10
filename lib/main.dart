@@ -1,3 +1,4 @@
+import 'package:Ticket/screens/home_screen/home_screen.dart';
 import 'package:Ticket/screens/start_screen/start_screen.dart';
 import 'package:Ticket/screens/walkthrough01_screen/walkthrough01_screen.dart';
 import 'package:Ticket/screens/walkthrough02_screen/walkthrough02_screen.dart';
@@ -18,6 +19,7 @@ class MyApp extends StatelessWidget {
         '/': (context) => StartScreen(),
         '/walkthroughOneScreen': (context) => WalkthroughOneScreen(),
         '/walkthroughTwoScreen': (context) => WalkthroughTwoScreen(),
+        '/homeScreen': (context) => HomeScreen(),
       },
     );
   }
