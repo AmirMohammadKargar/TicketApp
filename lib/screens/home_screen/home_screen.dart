@@ -46,6 +46,9 @@ class HomeScreen extends StatelessWidget {
                   ),
                   title: 'Flight',
                   des: '2000 Flight',
+                  onPress: () {
+                    Navigator.pushNamed(context, '/flightScreen');
+                  },
                 ),
                 MainMenuButton(
                   color1: Colors.lime[100],
