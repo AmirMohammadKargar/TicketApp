@@ -1,3 +1,4 @@
+import 'package:Ticket/screens/flight_screen/flight_screen.dart';
 import 'package:Ticket/screens/home_screen/home_screen.dart';
 import 'package:Ticket/screens/start_screen/start_screen.dart';
 import 'package:Ticket/screens/walkthrough01_screen/walkthrough01_screen.dart';
@@ -20,6 +21,7 @@ class MyApp extends StatelessWidget {
         '/walkthroughOneScreen': (context) => WalkthroughOneScreen(),
         '/walkthroughTwoScreen': (context) => WalkthroughTwoScreen(),
         '/homeScreen': (context) => HomeScreen(),
+        '/flightScreen': (context) => FlightScreen(),
       },
     );
   }
